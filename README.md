@@ -1,5 +1,4 @@
-![alt text](../01-MIO-encriptador-de-texto-challenge/img/Readme-01.png)
-
+![01](https://github.com/user-attachments/assets/51119d41-8dcc-4665-914f-5cf73bb6459a)
 
 # Wonder Encryptor
 <div align="center"><img src="img/logo-aluralatam-oracle.svg" width="200"/></div>
@@ -7,13 +6,9 @@
 
 _Este proyecto ha sido creado por Alura Latam dentro el curso Lógica de programación con JavaScript del Programa ONE Oracle Next Education, para el Challenge #1 propuesto. El reto consiste en diseñar un encriptador de texto partiendo del diseño inicial de Alura Latam, teniendo en cuenta los requisitos exigidos y algunos extras en el desarrollo, con lo cual estamos demostrando nuestro avance en el aprendizaje dentro del programa._
 
-_De ante mano muchas gracias a Alura Latam y a Oracle por la gran oportunidad de estar dentro de tan excelente programa._
-
 ## 🔧 Proyecto desarrollado con
 
-<img src="https://img.icons8.com/color/344/html-5--v1.png" alt="html" width="50"/>
-<img src="https://img.icons8.com/color/344/css3.png" alt="css" width="50"/>
-<img src="https://img.icons8.com/color/344/javascript--v1.png" alt="JavaScript" width="50"/>
+<img src="https://img.icons8.com/color/344/html-5--v1.png" alt="html" width="50"/><img src="https://img.icons8.com/color/344/css3.png" alt="css" width="50"/><img src="https://img.icons8.com/color/344/javascript--v1.png" alt="JavaScript" width="50"/>
 
 ## Funcionalidades 
 
