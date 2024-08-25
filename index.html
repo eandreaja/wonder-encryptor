@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder Encryptor</title>
+    <link rel="icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header class="cabecera">
+            <h1><img class="logo" src="img/logo.png" alt="Logo Wonder Woman"></h1>
+        </header>
+
+        <main>
+            <section class="seccion1">
+                <textarea class="area" id="inputText" placeholder="Ingrese su texto aquí" cols="50" rows="10"></textarea>
+
+                <div class="advertencia">
+
+                    <img class="no-encripta" src="img/logo.png">
+
+                    <aside class="letra-adver">Solo minúsculas, sin acentos ni caracteres especiales.</aside>
+                </div>
+
+                <div class="contenedor-botones">
+                    <input type="button" class="boton-encriptar" value="Encriptar">
+                    <input type="button" class="boton-desencriptar" value="Desencriptar">
+                </div>
+
+            </section>
+
+            <section class="seccion2">
+
+                <div class="contenedor-wonder">
+                    <img src="img/Wonder-Woman-1.png" width="180" height="210" alt="Wonder Woman">
+                </div>
+
+                <div class="contenedor-h3">
+                    <h3 class="ajustes-h3">Aún no se ha encriptado o desencriptado texto</h3>
+                </div>
+
+                <div class="contenedor-parrafo">
+                    <p class="ajustes-parrafo"></p>
+                </div>
+
+                <div class="contenedor-wonder-en">
+                    <img id="ocultar-wonder" src="img/Wonder-Woman-2.png" width="110" height="150" alt="Wonder Woman">
+                </div>
+
+                <div class="contenedor-resultado">
+                    <h3 class="titulo-encriptado" id="ocultar-titulo-encriptado">Texto Encriptado</h3>
+                    <textarea class="texto-resultado" id="textoResultado" cols="50" rows="10"></textarea>
+                </div>
+
+                <div class="contenedor-copiar">
+                    <input type="button" class="boton-copiar" id="copiar" onclick="copyToClickBoard()" value="Copiar">
+                </div>
+            </section>
+        </main>
+    </div>
+
+<div class="footer-container">
+    <footer class="footer-center">
+        <div>
+            <p><a class="icon" href="https://www.linkedin.com/in/andrea-jaramillo-9775212a0/" target="_blank"><img class="icon" src="img/logo.png" alt="Logo Linkedin"></a>Diseñado con ❤️ por @eandreaja
+                <a class="icon" href="https://www.linkedin.com/in/andrea-jaramillo-9775212a0/" target="_blank"><img class="icon" src="img/lnk.png" alt="Logo Linkedin"></a>
+                <a class="icon" href="https://github.com/eandreaja/" target="_blank"><img class="icon" src="img/github.png" alt="Logo Github"></a></p>
+        </div>
+    </footer>
+</div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>
